@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel=stylesheet href="css/index.css">
+</head>
+
+<body>
+    <header>
+    <nav>
+     <p class="logo">SMART LOG CABINS</p>
+     <ul class="menu">
+        <li><a href="/home">HOME</a></li>
+        <li><a href="/gallery">GALLERY</a></li>
+            <li> 
+             <ul class="dropdown">
+              <li><a href="/aframe">A-FRAME</a></li>
+              <li><a href="/tinyhomes">TINY HOMES</a></li>
+              <li><a href="/gazebos">GAZEBOS</a></li>
+              <li><a href="/creative">CREATIVE SPACES</a></li>
+             </ul>
+           </li>
+        <li><a href="/manufacturing">MANUFACTURING</a></li>
+        <li><a href="/philosophy">PHILOSOPHY</a></li>
+        <li><a href="/contact">CONTACT</a></li>
+     </ul>
+    </nav>
+</header>
+    <nav class="title">
+        <p>CHARMING TINY HOMES</p>
+        <p>LIVING IN HARMONY</p>
+        <a href="viewgallery">VIEW GALLERY</a>
+    </nav>
+     <!-- Slideshow container -->
+     <section class="slideshow-container">
+     <h2>Slideshow</h2>
+
+         <!--Clickable slideshow with caption text -->
+         <nav class="mySlideshow">
+            <a href="/aframe"><img src="img/aframe.jpg" alt="" style="width:100%"></a>
+            <p class="caption">A-FRAME</p>
+         </nav>
+
+         <nav class="mySlideshow">
+            <a href="/tinyhomes"><img src="img/tinyhome.jpg" alt="" style="width:100%"></a>
+            <p class="caption">TINY HOMES</p>
+         </nav>
+
+         <nav class="mySlideshow">
+            <a href="/creative"><img src="img/creative.jpg" alt="" style="width:100%"></a>
+            <p class="caption">CREATIVE SPACES</p>
+         </nav>
+
+         <nav class="mySlideshow">
+            <a href="/gazebos"><img src="img/gazebo.jpg" alt="" style="width:100%"></a>
+            <p class="caption">GAZEBOS</p>
+         </nav>
+
+         <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </section>
+     <!--Clickable Top sales gallery -->
+    <section>
+         <h2>TOP SALES</h2>
+         <nav class="myTopSales">
+            <a href="/product1"><img src="img/product1.jpg" alt="" width="250" height="250"></a>
+            <p class="piccaption">Product1</p>
+            <a href="/product2"><img src="img/product2.jpg" alt="" width="250" height="250"></a>
+            <p class="piccaption">Product2</p>
+            <a href="/product3"><img src="img/tinyhome.jpg" alt="" width="250" height="250"></a>
+            <p class="piccaption">Product3</p>
+         </nav>
+     </section>
+     <section>
+         <h2>PHILOSOPHY</h2>
+            <p>From concept to ready-to-move cabin our philosophy is to minimize ecological footprint<br>
+               and to live in harmony with environment. We support sustainable forestry and responsibility<br>
+               before next generations.
+            </p>
+     </section>
+     <form action="https://formspree.io/moqdavrj" method="POST">
+         <h2>CONTACT US</h2>
+             <p>Call us: 1-800</p>
+             <label>Enter Your Name<br>
+                <input type="text" placeholder="Name" name="name">
+             </label>
+             <br>
+             <label for="email">Enter Your Email<br>
+                <input type="email" placeholder="Email" id="email" name="email">
+             </label>
+             <br>
+             <label>Enter Your Subject<br>
+                 <input type="text" placeholder="Subject" name="subject">
+             </label>
+             <br>
+             <label>Enter Your Message<br>
+                 <input type="text" placeholder="Message" name="message">
+             </label>
+             <br>
+             <br>
+             <input type="submit">
+    </form>
+<br>
+
+<!-- The dots/circles
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>-->
+
+</body>
+</html>
